@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopeur</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="shopeur.css">
+</head>
+<body>
+<header>
+    <div class="logo_container">
+        <a href="#"><img src="iconname.png" class="logo_name"></a>
+    </div>
+    <nav class="nav_bar">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Home-Living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Studio<sup>New</sup></a>
+    </nav>
+    <div class="search_bar">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Search for any product" class="search_input">
+    </div>
+    <div class="action_bar">
+        <div class="action_container">
+           <i class="fa fa-user-o"></i>
+           <span>Profile</span>
+        </div>
+        <div class="action_container">
+            <i class="fa fa-heart-o"></i>
+            <span>Wishlist</span>
+         </div>
+         <div class="action_container">
+            <a href="bag.html" target="_self"><i class="fa fa-shopping-bag"></i></a>
+            <a href="bag.html" target="_self"><span>Bag</span></a>
+            <span class="bag_item_count">0</span>
+         </div>
+    </div>
+</header>
+<main>
+   <div class="banner_container">
+      <img src="banner.jpg" class="banner">
+   </div>
+   <div class="category_heading">Medal Worthy Brands to Bag</div>
+   <div class="category_items">
+     <div class="brands" id="101">
+      <a href="#"><img src="objects\1.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">4.5 ⭐ | 1.4K </p>
+         <p class="company_name">boohooMAN</p>
+         <p class="item_name">Printed Oversized co-Ords</p>
+         <p class="price">Rs. 2721</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="102">
+      <a href="#"><img src="objects\2.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">4.7 ⭐| 1.8K </p>
+         <p class="company_name">Calvin Klein</p>
+         <p class="item_name">Boys Solid Black T-shirt</p>
+         <p class="price">Rs. 699</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="103">
+      <a href="#"><img src="objects\3.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">3.4 ⭐| 2.1K </p>
+         <p class="company_name">Aldo</p>
+         <p class="item_name">Men Comfort Insole Sneakers</p>
+         <p class="price">Rs. 8999</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="104">
+      <a href="#"><img src="objects\4.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">3.2 ⭐| 1.9K </p>
+         <p class="company_name">The Collective</p>
+         <p class="item_name">Men Gray Double-Knit Jacket</p>
+         <p class="price">Rs. 11,500</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="105">
+      <a href="#"><img src="objects\5.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">3.1 ⭐| 2.4K </p>
+         <p class="company_name">Nautica</p>
+         <p class="item_name">Men White Printed Casual Shirt</p>
+         <p class="price">Rs. 1598</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="106">
+      <a href="#"><img src="objects\6.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">6.5 ⭐| 1.8K </p>
+         <p class="company_name">Boohoo</p>
+         <p class="item_name">Suede Block Heels</p>
+         <p class="price">Rs. 2759</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="107">
+      <a href="#"><img src="objects\7.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">4.9 ⭐| 1.2K </p>
+         <p class="company_name">Raymond</p>
+         <p class="item_name">Cotton Blend Casuals</p>
+         <p class="price">Rs. 599</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="108">
+      <a href="#"><img src="objects\8.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">1.1 ⭐| 4.6K </p>
+         <p class="company_name">Levi's</p>
+         <p class="item_name">Black Comfort T-shirt</p>
+         <p class="price">Rs. 640</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="109">
+      <a href="#"><img src="objects\9.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">4.5 ⭐| 1.5K </p>
+         <p class="company_name">Woodland</p>
+         <p class="item_name">Sneakers for Men(Camel)</p>
+         <p class="price">Rs. 2599</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="110">
+      <a href="#"><img src="objects\10.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">2.5 ⭐| 3.4K </p>
+         <p class="company_name">Allen Solly</p>
+         <p class="item_name">Pointed Block Heel</p>
+         <p class="price">Rs.1399</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="111">
+      <a href="#"><img src="objects\11.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">4.3 ⭐| 1.5K </p>
+         <p class="company_name">Mango</p>
+         <p class="item_name">Embellished Party Stiletto Heels</p>
+         <p class="price">Rs. 4392</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+
+     <div class="brands" id="112">
+      <a href="#"><img src="objects\12.png" class="sale"></a>
+      <div class="details">
+         <p class="rating">2.9 ⭐| 1.2K </p>
+         <p class="company_name">Mango</p>
+         <p class="item_name">Men Straight Fits</p>
+         <p class="price">Rs. 2634</p>
+      </div>
+      <button onclick="addToBag(parentNode.id)">Add to Bag</button>
+     </div>
+   </div>
+
+   <div class="shop_heading">Shop By Category</div>
+   <div class="category_items">
+    <a href="#"><img src="categories\1.jpg" class="sale"></a>
+    <a href="#"><img src="categories\2.jpg" class="sale"></a>
+    <a href="#"><img src="categories\3.jpg" class="sale"></a>
+    <a href="#"><img src="categories\4.jpg" class="sale"></a>
+    <a href="#"><img src="categories\5.jpg" class="sale"></a>
+    <a href="#"><img src="categories\6.jpg" class="sale"></a>
+    <a href="#"><img src="categories\7.jpg" class="sale"></a>
+    <a href="#"><img src="categories\8.jpg" class="sale"></a>
+    <a href="#"><img src="categories\9.jpg" class="sale"></a>
+    <a href="#"><img src="categories\10.jpg" class="sale"></a>
+ </div>
+</main>
+<footer>
+   <div class="footer_container">
+      <div class="footer_column">
+           <div class="footer_heading">Online Shopping</div>
+           <a href="#">Men</a>
+           <a href="#">Women</a>
+           <a href="#">Kids</a>
+           <a href="#">Home-Living</a>
+           <a href="#">Beauty</a>
+           <a href="#">Gift Card<sup>New</sup></a>
+      </div>
+
+      <div class="footer_column">
+        <div class="footer_heading">Customer Policies</div>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQ</a>
+        <a href="#">Terms & Consitions</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Shipping</a>
+        <a href="#">Cancellation</a>
+        <a href="#">Returns</a>
+        <a href="#">Privacy Policy</a>
+     </div>
+
+     <div class="footer_column">
+        <div class="footer_heading">Useful Link</div>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+        <a href="#">Site Map</a>
+        <a href="#">Coorporate Information</a>
+        <a href="#">Cleartrip</a>
+        <a href="#">Guarantee</a>
+     </div>
+    </div>
+
+     <div class="social_site">
+        <div id="social_heading">Connected Sites</div>
+        <i class="fa fa-youtube" id="socialimg"></i>
+        <i class="fa fa-instagram" id="socialimg"></i>
+        <i class="fa fa-twitter" id="socialimg"></i>
+        <i class="fa fa-facebook" id="socialimg"></i>
+     </div>
+   <hr>
+   <div class="copywrite">©2024 www.shopeur.com All rights reserved. </div>
+</footer>   
+<script src="shopeur.js"></script>
+
+</body>
+</html>
